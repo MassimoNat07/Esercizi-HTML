@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+    <label for="email"> Insert your email 
+    <abbr title="obligatory">*</abbr ></label>
+    <input type="email" placeholder="insert your email">
+  </div>
+  <div>
+    <label for="password">Password 
+    <abbr title="obligatory">*</abbr ></label>
+    <input type="password"placeholder="insert your password">
+  </div>
+  <div>
+   <br>
+  <label for="name" id="name"> Name <abbr title="obligatory>">*</abbr></label> 
+    <input type="name" id="name"placeholder="Insert your name"required pattern="[A-Za-z]" >
+  </div>
+  <div>
+    <label for="lastname" id="lastname">Lastname <abbr title="obligatory">*</abbr></label>
+    <input type="lastname"id="lastname" placeholder="Insert your lastname"required pattern="[A-Za-z]"  > 
+  </div>
+  <br>
+  <div>
+    <label for="date">Date of birthday <abbr title="obligatory">*</abbr></label>
+    <input type="date">
+  </div>
+  <br>
+  <div>
+    <label for="telephone number">Telephone number<abbr title="obligatory">*</abbr> </label>
+    <input type="tel" placeholder="your number"required pattern="[0-9]+" maxlength="10" min="5">
+  </div>
+  <br>
+  <div>
+    <label for="free plane">Free plane</label>
+    <select name="favorite plan" id="favorite plan">
+      
+      <option value="free plan"> three months plan 25,99€ </option>
+      <option value="free plan"> six months plan 44,99€ </option>
+      <option value="free plan"> annual plan 79,99€ </option>
+
+      <input type="checkbox">
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="credit card number" id="ccn"> Credit card number</label>
+      <input type="credit card number" placeholder="your credit card number" 
+      required pattern="+" maxlength="27" min="27">
+    </div>
+    <br>
+    <div>
+      <label for="cvc" id="cvc"> CVC</label>
+      <input type="cvc" placeholder="cvc"required pattern="[0-9]+" maxlength="3" min="3">
+    </div>
+    <br>
+    <div>
+      <select nome = "monthExpires" >
+     <option value="01">January</option>
+     <option value="02">February</option>
+     <option value="03">March</option>
+     <option value="04">April</option>
+     <option value="05">May</option>
+     <option value="06">June</option>
+     <option value="07">July</option>
+     <option value="08">August</option>
+     <option value="09">September</option>
+     <option value="10">October</option>
+     <option value="11">November</option>
+     <option value="12">December</option>
+     </select>
+     <select name="yearsExpires">
+     <option value="24">2024</option>
+     <option value="25">2025</option>
+     <option value="26">2026</option>
+     <option value="27">2027</option>
+      </select>
+      </div>
+      <br>
+      <div>
+        <label for="Billing Address">Billing Address <abbr title="obligatory">*</abbr></label>
+      <input type="Billing Address" placeholder="Billing Address">
+      </div>
+  <button> Click here</button>
+  </body>
+</html>
