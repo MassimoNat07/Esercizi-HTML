@@ -1,0 +1,8 @@
+selector {
+    property: Value ;
+    property1: Value;  
+    property2: Value;
+  }
+  main {
+     background-color:rgb(250, 15, 15);
+  }
